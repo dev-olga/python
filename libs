@@ -1,0 +1,5 @@
+# json serializer
+pip install -U jsonpickle
+pip install simplejson
+#pony orm
+pip install pony

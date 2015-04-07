@@ -1,0 +1,9 @@
+2014-10-02 02:37:25,939 - client.core.chat_client - ERROR - [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/user/projects/chat/client/core/chat_client.py", line 50, in start
+    self._client_socket = self._create_socket()
+  File "/home/user/projects/chat/client/core/chat_client.py", line 286, in _create_socket
+    new_socket.connect((self._config.host, self._config.port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused

@@ -1,0 +1,7 @@
+2014-09-19 11:09:43,653 - server.core.chat_server - ERROR - 
+Traceback (most recent call last):
+  File "/home/user/projects/chat/server/core/chat_server.py", line 145, in _process
+    action(socket, msg.arguments, msg.token)
+  File "/home/user/projects/chat/server/core/chat_server.py", line 270, in _load_chats
+    raise  Exception
+Exception
